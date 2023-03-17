@@ -8,3 +8,9 @@ import pz
 
 # pz.pz4()
 
+#pz.pz5()
+
+#pz.pz6()
+
+pz()
+
