@@ -46,3 +46,41 @@ def pz4():
         else:
             fileOut.write(row)
 
+def pz5():
+    file = open("pz1in.txt", encoding="utf-8")
+    inStr = file.read()
+
+    sUser = input("enter symbol for find")
+
+    listIn = inStr.split(" ")
+    count = 0
+    for i in listIn:
+        if i[0] == sUser:
+            count += 1
+    print(count)
+
+def pz6():  
+    file = open("pz4out.txt", encoding="utf-8")
+    inStr = file.read()
+    listOut = []
+    for i in inStr:
+        if i == "*":
+           i = '&'
+           listOut.append(i)    
+        elif i =="&":
+           i = " * " 
+           listOut.append(i) 
+        else:
+           listOut.append(i) 
+    strOut = ''.join(listOut)
+    print(strOut)   
+
+
+def pz
+
+
+
+    
+    
+    
+
